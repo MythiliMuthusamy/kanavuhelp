@@ -58,7 +58,7 @@ class Welcome extends CI_Controller
 			echo '<script>alert("Succesfully registered")</script>';
 			// $this->index();
 		} else {
-			echo 'Failed to register';
+			echo 'Failed to register.';
 		}
 		// }
 	}
